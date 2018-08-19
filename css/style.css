@@ -1558,7 +1558,7 @@ ul.breadcrumbs li{
 	color:#000;
 }
 ul.breadcrumbs li.women{
-	    background: yellow;
+	background: #fdd835;
     font-size: 14px;
     padding: 3px;
 }
@@ -1769,7 +1769,8 @@ p.click a:hover{
 	width:68%;
 	float:right;
 }
-.contact-left input[type="text"]{
+.contact-left input[type="text"],
+.contact-left input[type="email"] {
 	width: 100%;
 	color: #000;
 	margin: 0 23px 23px 0;
@@ -2722,7 +2723,8 @@ p.right {
 	.contact-left {
 		width: 100%;
 	}
-	.contact-left input[type="text"] {
+	.contact-left input[type="text"],
+	.contact-left input[type="email"] {
 		margin: 0 0px 23px 0;
 	}
 	.cards.text-center img {
