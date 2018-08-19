@@ -717,7 +717,8 @@ a.like_name {
 	font-family: 'Lato-Regular';
 	padding: 0;
 }
-.join input[type="text"] {
+.join input[type="text"],
+.join input[type="email"] {
 	width: 48%;
     color: #C3C3C3;
     letter-spacing: 1px;
@@ -1558,7 +1559,7 @@ ul.breadcrumbs li{
 	color:#000;
 }
 ul.breadcrumbs li.women{
-	    background: yellow;
+	background: #fdd835;
     font-size: 14px;
     padding: 3px;
 }
@@ -1769,7 +1770,8 @@ p.click a:hover{
 	width:68%;
 	float:right;
 }
-.contact-left input[type="text"]{
+.contact-left input[type="text"],
+.contact-left input[type="email"] {
 	width: 100%;
 	color: #000;
 	margin: 0 23px 23px 0;
@@ -2407,7 +2409,8 @@ p.right {
 		font-size: 16px;
 		padding: 7px 0 9px;
 	}
-	.join input[type="text"] {
+	.join input[type="text"],
+	.join input[type="email"] {
 		width: 47%;
 		font-size: 13px;
 	}
@@ -2634,7 +2637,8 @@ p.right {
 		font-size: 16px;
 		margin-right: 3%;
 	}
-	.join input[type="text"] {
+	.join input[type="text"],
+	.join input[type="email"] {
 		width: 44%;
 	}
 	.join input[type="submit"] {
@@ -2722,7 +2726,8 @@ p.right {
 	.contact-left {
 		width: 100%;
 	}
-	.contact-left input[type="text"] {
+	.contact-left input[type="text"],
+	.contact-left input[type="email"] {
 		margin: 0 0px 23px 0;
 	}
 	.cards.text-center img {
@@ -2739,7 +2744,8 @@ p.right {
 	.contact-form input[type=submit] {
 		margin-top: 15px;
 	}	
-	.join input[type="text"] {
+	.join input[type="text"],
+	.join input[type="email"] {
 		width: 70%;
 	}
 	.join input[type="submit"] {
@@ -2959,7 +2965,8 @@ p.right {
 	.mask {
 		left: 32%;
 	}
-	.join input[type="text"] {
+	.join input[type="text"],
+	.join input[type="email"] {
 		width: 65%;
 	}
 	.join input[type="submit"] {
@@ -3080,7 +3087,18 @@ p.right {
 .capitalize {
 	text-transform: capitalize;
 }
+.italic {
+	font-style: italic;
+}
 .banner-text::first-letter {
 	color : #fdd835;
 	text-shadow: -1px 1px #3E2723;
+}
+.address-block h4,
+.address-block address {
+	display: inline;
+}
+.address-block address {
+	color: #424242;
+    font-size: 1.25em;
 }
