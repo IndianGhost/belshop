@@ -744,7 +744,7 @@ a.like_name {
     -webkit-apperance: none;
 }
 .join input[type="submit"]:hover {
-	background-color:#000;
+	background-color:#6a1b9a;
 }
 /*-- news-letter-ends-here --*/
 /*-- footer-starts-here --*/
@@ -792,7 +792,7 @@ ul.f_nav li a{
 	float:left;
 }
 .product-listy{
-	background:#91b900;
+	background: #fdd835;
 }
 ul.product-list{
 	padding:0em 0 0.5em 0;
@@ -803,7 +803,7 @@ ul.product-list li{
 	margin:5px 0;
 }
 ul.product-list li a{
-	color:#FFF;
+	color:#9c27b0;
 	text-transform:uppercase;
 	font-size:0.85em;
 	text-decoration:none;
@@ -842,7 +842,7 @@ ul.product-list li a:hover{
 .offer p{
 	font-size:30px;
 	color:#fff;
-	background:rgba(129, 98, 99, 0.73);
+	background:#9c27b0;
 	padding: 15px 8px;
 	border-radius:50%;
 	-webkit-border-radius:50%;
@@ -852,7 +852,7 @@ ul.product-list li a:hover{
 	font-weight:400;
 }
 .offer small{
-	color: #7C7C7C;
+	color: #9c27b0;
 	font-size: 18px;
 }
 .tags{
@@ -923,7 +923,8 @@ ul.product-top-list li a{
     font-size: 16px;
 }
 ul.product-top-list li span.act{
-	    background: yellow;
+	background: #fdd835;
+	color: #333;
     font-size: 14px;
     padding: 3px;
 }
@@ -1188,7 +1189,7 @@ ul.women_pagenation li.active a, ul.women_pagenation li a:hover {
 	-ms-transition:0.5s all;
 }
 .product-listy{
-	background:#9E9C9C;
+	background:#fdd835;
 }
 ul.product-list{
 	padding:0em 0 0.5em 0;
@@ -1199,7 +1200,7 @@ ul.product-list li{
 	margin:5px 0;
 }
 ul.product-list li a{
-	color:#FFF;
+	color:#9c27b0;
 	text-transform:uppercase;
 	font-size:0.85em;
 	text-decoration:none;
@@ -1623,11 +1624,11 @@ ul.women_pagenation li a {
 	text-transform:uppercase;
 }
 ul.women_pagenation li.active a{
-	background:#7C7C7C;
+	background:#9c27b0;
 	color:#fff;
 }
 ul.women_pagenation li a:hover{
-	background:#9c27b0;
+	background:#7C7C7C;
 	color:#fff;
 }
 .login-page {
@@ -1800,7 +1801,7 @@ p.click a:hover{
 	background:#9c27b0;
 }
 .contact-form input[type=submit]:hover {
-	background:#000;
+	background:#6a1b9a;
 	transition: .5s all;
 	-webkit-transition: .5s all;
 	-o-transition: .5s all;
@@ -3101,4 +3102,7 @@ p.right {
 .address-block address {
 	color: #424242;
     font-size: 1.25em;
+}
+.pricey .item_price {
+	color: #9c27b0;
 }
